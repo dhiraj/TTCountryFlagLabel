@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TTCountryFlagLabel_Example' do
+  pod 'TTCountryFlagLabel', :path => '../'
+
+  target 'TTCountryFlagLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
