@@ -1,6 +1,5 @@
 # TTCountryFlagLabel
 
-[![CI Status](http://img.shields.io/travis/Dhiraj Gupta/TTCountryFlagLabel.svg?style=flat)](https://travis-ci.org/Dhiraj Gupta/TTCountryFlagLabel)
 [![Version](https://img.shields.io/cocoapods/v/TTCountryFlagLabel.svg?style=flat)](http://cocoapods.org/pods/TTCountryFlagLabel)
 [![License](https://img.shields.io/cocoapods/l/TTCountryFlagLabel.svg?style=flat)](http://cocoapods.org/pods/TTCountryFlagLabel)
 [![Platform](https://img.shields.io/cocoapods/p/TTCountryFlagLabel.svg?style=flat)](http://cocoapods.org/pods/TTCountryFlagLabel)

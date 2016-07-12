@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4113A2CAD6314FA6F3CE5416 /* Pods_TTCountryFlagLabel_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21746EDA0DAB37EBE494EF3B /* Pods_TTCountryFlagLabel_Example.framework */; };
+		59A863B31D359F3B00D26186 /* TTTableViewFlagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A863B21D359F3B00D26186 /* TTTableViewFlagsViewController.m */; };
+		59A863B61D359FDB00D26186 /* TTCountryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59A863B51D359FDB00D26186 /* TTCountryCell.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,6 +40,10 @@
 /* Begin PBXFileReference section */
 		21746EDA0DAB37EBE494EF3B /* Pods_TTCountryFlagLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTCountryFlagLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54273BFE9765F91801189B7F /* Pods-TTCountryFlagLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTCountryFlagLabel_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTCountryFlagLabel_Example/Pods-TTCountryFlagLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		59A863B11D359F3B00D26186 /* TTTableViewFlagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTableViewFlagsViewController.h; sourceTree = "<group>"; };
+		59A863B21D359F3B00D26186 /* TTTableViewFlagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTableViewFlagsViewController.m; sourceTree = "<group>"; };
+		59A863B41D359FDB00D26186 /* TTCountryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCountryCell.h; sourceTree = "<group>"; };
+		59A863B51D359FDB00D26186 /* TTCountryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCountryCell.m; sourceTree = "<group>"; };
 		5A2A807BF32FC905C7AEFF1F /* Pods-TTCountryFlagLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTCountryFlagLabel_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTCountryFlagLabel_Tests/Pods-TTCountryFlagLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5F62067173A41B5F57A20982 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TTCountryFlagLabel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTCountryFlagLabel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +143,10 @@
 				6003F5A6195388D20070C39A /* TTViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				59A863B11D359F3B00D26186 /* TTTableViewFlagsViewController.h */,
+				59A863B21D359F3B00D26186 /* TTTableViewFlagsViewController.m */,
+				59A863B41D359FDB00D26186 /* TTCountryCell.h */,
+				59A863B51D359FDB00D26186 /* TTCountryCell.m */,
 			);
 			name = "Example for TTCountryFlagLabel";
 			path = TTCountryFlagLabel;
@@ -390,7 +400,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59A863B31D359F3B00D26186 /* TTTableViewFlagsViewController.m in Sources */,
 				6003F59E195388D20070C39A /* TTAppDelegate.m in Sources */,
+				59A863B61D359FDB00D26186 /* TTCountryCell.m in Sources */,
 				6003F5A7195388D20070C39A /* TTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

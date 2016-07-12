@@ -1,0 +1,19 @@
+PODS:
+  - TTCountryFlagLabel (0.1.0):
+    - TTEmojiFlagString (~> 0.1)
+  - TTEmojiFlagString (0.1.3)
+
+DEPENDENCIES:
+  - TTCountryFlagLabel (from `../`)
+
+EXTERNAL SOURCES:
+  TTCountryFlagLabel:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TTCountryFlagLabel: 30bbfbabb9bb208e47304fc7fc83ecd65f2b8891
+  TTEmojiFlagString: fc6548b7d8e4bd74a890e008a4823154ba7ca24a
+
+PODFILE CHECKSUM: 1481f5aa07222917bc28c3c8d11d548000b344ad
+
+COCOAPODS: 1.0.1
