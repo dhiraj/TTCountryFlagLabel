@@ -23,11 +23,11 @@ The idea is that instead of bundling your own version of 241 flags of all the co
                        DESC
 
   s.homepage         = 'https://github.com/dhiraj/TTCountryFlagLabel'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'https://cloud.githubusercontent.com/assets/43901/16786172/84a4fd7a-48b0-11e6-9b92-275853107f93.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Dhiraj Gupta' => 'dhiraj@traversient.com' }
+  s.author           = { 'Dhiraj Gupta' => 'development@traversient.com' }
   s.source           = { :git => 'https://github.com/dhiraj/TTCountryFlagLabel.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/dhiraj'
+  s.social_media_url = 'https://twitter.com/dhiraj'
 
   s.ios.deployment_target = '8.3'
 
