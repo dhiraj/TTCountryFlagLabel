@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TTCountryFlagLabel'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Simple UILabel subclass that displays a country emoji flag instead of the 2 letter ISO_3166-1_alpha-2 code that is set on it'
 
 # This description is used to generate tags and improve search results.
